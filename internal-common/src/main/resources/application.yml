@@ -1,0 +1,11 @@
+server:
+  port: 8082
+eureka:
+  client:
+    enabled: false
+#  instance:
+#    hostname:
+#    appname: service-sms
+spring:
+  application:
+    name: common

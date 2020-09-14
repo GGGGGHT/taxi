@@ -1,0 +1,14 @@
+server:
+  port: 8083
+eureka:
+  client:
+    enabled: false
+#  instance:
+#    hostname:
+#    appname: service-sms
+spring:
+  application:
+    name: very-code
+  redis:
+    host: hadoop102
+    password: root
