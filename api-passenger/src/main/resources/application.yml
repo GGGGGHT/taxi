@@ -1,0 +1,10 @@
+server:
+  port: 8080
+eureka:
+  instance:
+    hostname: api-passenger
+    appname: api-passenger
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7900/eureka/
+
